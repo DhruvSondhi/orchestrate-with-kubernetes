@@ -6,7 +6,8 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: hello
+    app: hello
+    track: stable
   template:
     metadata:
       labels:
